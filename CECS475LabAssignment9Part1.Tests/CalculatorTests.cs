@@ -11,6 +11,7 @@ namespace CECS475LabAssignment9Part1.Tests
         [Ignore]
         public void AddSimple()
         {
+            //
             Calculator calc = new Calculator();
             int summation = calc.Add(1,2);
             Assert.AreEqual(3,summation);
